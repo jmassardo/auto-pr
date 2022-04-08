@@ -1,6 +1,7 @@
 name: create_pr
 
 on:
+  workflow_dispatch:
   issues:
     types: [open]
 
